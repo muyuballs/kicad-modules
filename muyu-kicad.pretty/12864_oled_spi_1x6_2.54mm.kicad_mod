@@ -1,4 +1,4 @@
-(module 12864_oled_spi_1x6_2.54mm (layer F.Cu) (tedit 58F06D14)
+(module 12864_oled_spi_1x6_2.54mm (layer F.Cu) (tedit 58F45C91)
   (descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row")
   (tags "Through hole socket strip THT 1x06 2.54mm single row")
   (fp_text reference REF** (at 0 -5.08 180) (layer F.SilkS)
@@ -28,9 +28,4 @@
   (pad "" np_thru_hole circle (at -11.65 0.5) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.65 0.5) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.65 24.3) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask))
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x06_Pitch2.54mm.wrl
-    (at (xyz 0 -0.25 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 270))
-  )
 )
